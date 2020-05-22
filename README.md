@@ -78,6 +78,8 @@ Now your dataset is uploaded and ready for use!
 
 To train the model, simply paste the code in CNN.py into a code cell after completing the above process and run it.
 
+For my complete Google Colab implementation, follow this [link](https://colab.research.google.com/drive/1YQ-QXX2xribxGC0C_a-EfTAu_7sfGQbK?usp=sharing)
+
 * ***Using system installed Python interpreter or IDE***
 
 1. Download the dataset to your system using this [link](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), then unzip the image dataset.
@@ -95,8 +97,9 @@ Then run the above code cell again to ensure proper installation.
 4. Now, to train the model, set the folder containing the downloaded dataset as the working directory. Then simply paste the code available in CNN.py
 and run it.
 
+To view the model summary and list of layers used, check Model Summary file from the repository.
 
-![image](table.png?raw=true)
+To check for individual images, uncomment the last section of the code, titled ' Checking for individial images' and replace 'enter image name' by the name of the image you wish to test.
 
 ## Using the model for other image classification tasks
 Finally, this model can be used for any image classification task without effecting the accuracy. To use it for another purpose,
