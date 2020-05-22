@@ -97,9 +97,12 @@ Then run the above code cell again to ensure proper installation.
 4. Now, to train the model, set the folder containing the downloaded dataset as the working directory. Then simply paste the code available in CNN.py
 and run it.
 
-To view the model summary and list of layers used, check Model Summary file from the repository.
 
-To check for individual images, uncomment the last section of the code, titled ' Checking for individial images' and replace 'enter image name' by the name of the image you wish to test.
+* To view the model summary and list of layers used, check Model Summary file from the repository.
+
+
+* To check for individual images, uncomment the last section of the code, titled ' Checking for individial images' and replace 'enter image name' by the name of the image you wish to test.
+
 
 ## Using the model for other image classification tasks
 Finally, this model can be used for any image classification task without effecting the accuracy. To use it for another purpose,
